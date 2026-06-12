@@ -61,4 +61,4 @@ The project follows a modular **Domain-Driven Design (DDD)** inspired structure:
 - **Type Safety**: Order and Product models include rigorous type coercion to prevent UI crashes from malformed Firestore data.
 
 ---
-Developed by [Victor Bee](https://github.com/your-username)
+Developed by [Victor Bee]([https://github.com/](https://github.com/Mubangizivictor)
