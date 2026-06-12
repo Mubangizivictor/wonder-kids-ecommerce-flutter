@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "605845063930",
+    "project_id": "luxe-ecom-a5022",
+    "storage_bucket": "luxe-ecom-a5022.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605845063930:android:5403cd2a3b19f910316143",
+        "android_client_info": {
+          "package_name": "com.wonderkids.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa4e9alr4sLnUruAUP4lfoKFNmFicMsQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

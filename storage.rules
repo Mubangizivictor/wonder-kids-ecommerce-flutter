@@ -1,0 +1,33 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() &&
+        firestore.get(/databases/(default)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+    }
+
+    // Profile photos: Anyone can read, only the owner can write
+    match /profile_photos/{userId} {
+      allow read: if true;
+      allow write: if isAuthenticated() && request.auth.uid == userId.replace('.jpg', '');
+    }
+
+    // Product images: Anyone can read, only Admins can write
+    match /products/{allPaths=**} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Order receipts: Users can write their own, Admins can read all
+    match /receipts/{orderId}/{allPaths=**} {
+      allow read: if isAdmin();
+      allow write: if isAuthenticated();
+    }
+  }
+}

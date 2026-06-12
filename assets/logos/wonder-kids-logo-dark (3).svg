@@ -1,0 +1,22 @@
+<svg width="400" height="160" viewBox="0 0 400 160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="160" rx="16" fill="#1A1617"/>
+  <circle cx="80" cy="80" r="52" fill="#392D32" opacity="0.8"/>
+  <!-- Pink petals -->
+  <ellipse cx="80" cy="38" rx="14" ry="20" fill="#FF8EBC"/>
+  <ellipse cx="80" cy="122" rx="14" ry="20" fill="#FF8EBC"/>
+  <ellipse cx="38" cy="80" rx="20" ry="14" fill="#FF8EBC"/>
+  <ellipse cx="122" cy="80" rx="20" ry="14" fill="#FF8EBC"/>
+  <!-- Blue diagonal petals -->
+  <ellipse cx="50" cy="50" rx="11" ry="16" fill="#81D4FA" transform="rotate(-45 50 50)"/>
+  <ellipse cx="110" cy="50" rx="11" ry="16" fill="#81D4FA" transform="rotate(45 110 50)"/>
+  <ellipse cx="50" cy="110" rx="11" ry="16" fill="#81D4FA" transform="rotate(45 50 110)"/>
+  <ellipse cx="110" cy="110" rx="11" ry="16" fill="#81D4FA" transform="rotate(-45 110 110)"/>
+  <!-- Center -->
+  <circle cx="80" cy="80" r="24" fill="#FF8EBC"/>
+  <circle cx="80" cy="80" r="17" fill="#2D2426"/>
+  <text x="80" y="87" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#FF8EBC">W</text>
+  <!-- Wordmark -->
+  <text x="155" y="65" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#FF8EBC">Wonder</text>
+  <text x="155" y="108" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#81D4FA">Kids</text>
+  <text x="155" y="132" font-family="Arial, sans-serif" font-size="12" fill="#997788" letter-spacing="2">PLAY · GROW · EXPLORE</text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "flutter": {"platforms":{"android":{"default":{"projectId":"luxe-ecom-a5022","appId":"1:605845063930:android:5403cd2a3b19f910316143","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"luxe-ecom-a5022","appId":"1:605845063930:ios:55ce97a10a9d9e2d316143","uploadDebugSymbols":true,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"macos":{"default":{"projectId":"luxe-ecom-a5022","appId":"1:605845063930:ios:55ce97a10a9d9e2d316143","uploadDebugSymbols":true,"fileOutput":"macos/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"luxe-ecom-a5022","configurations":{"android":"1:605845063930:android:5403cd2a3b19f910316143","ios":"1:605845063930:ios:55ce97a10a9d9e2d316143","macos":"1:605845063930:ios:55ce97a10a9d9e2d316143","web":"1:605845063930:web:dec9e3b4886e0299316143","windows":"1:605845063930:web:febe0653cf1aa3e5316143"}}}}}}
